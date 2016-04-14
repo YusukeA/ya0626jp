@@ -1,0 +1,11 @@
+<?php
+    //  ▼ URL 取得
+    $page_orignal_url = $_SERVER["REQUEST_URI"];
+    
+    //　▼パラメーターカット
+    $page_url = $page_orignal_url;
+    $page_url = strtok($page_orignal_url, '?');
+    
+    $home = "/project001/";
+
+?>

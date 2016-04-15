@@ -1,0 +1,56 @@
+/*
+Error: Invalid CSS after "": expected selector, was "<?php include($..."
+        on line 1 of /home/ubuntu/workspace/project001/index.html
+
+1: <?php include($_SERVER['DOCUMENT_ROOT']."/project001/template/header.html"); ?>
+2: <main>
+3: <!-- left contents -->
+4: <div class="left-contents">
+5: <?php include($_SERVER['DOCUMENT_ROOT']."/project001/template/module/menu-module.html"); ?>
+6: </div>
+
+Backtrace:
+/home/ubuntu/workspace/project001/index.html:1
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1181:in `expected'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1115:in `expected'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1095:in `expr!'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/scss/static_parser.rb:20:in `parse_selector'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:425:in `visit_rule'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `visit'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:79:in `block in with_base'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:115:in `with_frame'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:79:in `with_base'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `map'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `visit'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/tree/root_node.rb:36:in `css_tree'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `each'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/plugin.rb:82:in `update_stylesheets'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/exec/sass_scss.rb:363:in `watch_or_update'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/exec/base.rb:52:in `parse'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/lib/sass/exec/base.rb:19:in `parse!'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.21/bin/scss:13:in `<top (required)>'
+/nix/store/yrs58pvf72cn1mcax0s685yw2dqzzvqv-ruby-1.9.3-p484/bin/scss:23:in `load'
+/nix/store/yrs58pvf72cn1mcax0s685yw2dqzzvqv-ruby-1.9.3-p484/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"\": expected selector, was \"<?php include($...\"\A         on line 1 of /home/ubuntu/workspace/project001/index.html\A \A 1: <?php include($_SERVER['DOCUMENT_ROOT'].\"/project001/template/header.html\"); ?>\A 2: <main>\A 3: <!-- left contents -->\A 4: <div class=\"left-contents\">\A 5: <?php include($_SERVER['DOCUMENT_ROOT'].\"/project001/template/module/menu-module.html\"); ?>\A 6: </div>"; }

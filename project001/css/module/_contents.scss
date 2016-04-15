@@ -1,0 +1,19 @@
+/* *****************************
+ * contetns-setting
+ **************************** */
+$column-base: table;
+$column-setting: table-cell;
+
+main{
+    width: 100%;
+    display: $column-base;
+}
+
+.left-contents,
+.right-contents{
+    display: $column-setting;
+}
+
+.right-contents{
+    width: 100%;
+}

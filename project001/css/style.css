@@ -1,0 +1,42 @@
+/* *****************************
+ * contetns-setting
+ **************************** */
+main {
+  width: 100%;
+  display: table; }
+
+.left-contents,
+.right-contents {
+  display: table-cell; }
+
+.right-contents {
+  width: 100%; }
+
+/* *****************************
+ * menu-setting
+ **************************** */
+.menu-setting {
+  background-color: #2B333B;
+  height: 100vh; }
+  .menu-setting ul {
+    border-bottom: solid 1px;
+    color: #85898c;
+    padding: 30px 0;
+    width: 160px; }
+    .menu-setting ul li a {
+      color: #85898c;
+      display: block;
+      padding: 10px 20px; }
+  .menu-setting ul:first-child {
+    border-bottom: none; }
+
+.menu-setting ul li a:hover {
+  background-color: #3d454d;
+  color: #fff; }
+
+.menu-setting.open {
+  width: 20px; }
+  .menu-setting.open ul:last-child {
+    display: none; }
+
+/*# sourceMappingURL=style.css.map */

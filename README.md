@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
      ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
     '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
@@ -28,3 +29,6 @@ The Cloud9 IDE team
 
 Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
 To watch some training videos, visit http://www.youtube.com/user/c9ide
+=======
+# ya0626jp
+>>>>>>> a1e569eb7c5e99a1eceea6bab2c6ea0b7bc95891

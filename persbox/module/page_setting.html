@@ -1,0 +1,17 @@
+<?php
+    // Web site control-settign
+    
+    $page_orignal_url = $_SERVER["REQUEST_URI"];
+    
+    //　▼パラメーターカット
+    $page_url = $page_orignal_url;
+    $page_url = strtok($page_orignal_url, '?');
+
+    //  ▼ディレクトリーセッティング
+    $directory_setting = "/persbox/";
+
+    // ▼▼ HOME
+    $company_home =  $directory_setting;
+
+
+?>

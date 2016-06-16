@@ -1,0 +1,27 @@
+<?php
+    /*
+    *　各種ページのSEO設定
+    *  01_メタタイトル設定
+    *　02_メタキーワード設定
+    *  03_メタディスクリプション 設定
+    *  04_h1 設定
+    */
+    
+    // 共通タイトル設定
+    $common_title = "PersBox";
+
+    
+    if($page_url == $company_home){
+    // ▼▼[ topページ設定 ]
+        //01
+        $meta_title = "Your satisfaction is guaranteed. | $common_title";
+        //02
+        $meta_keywords = "パースボックス,CGパース,手描きパース,建築パース,店舗パース,住宅インテリアパース,イベントパース,展示会パース,3Dモデリング";
+        //03
+        $meta_description = "PersBox（パースボックス）は、確かなテクニックとセンスを持ち合せたプロの技術集団です。ハイクオリティーなCGや手描きによる建築、店舗、住宅インテリア、イベント、展示会などのパースデザインを手掛けています。";
+        //04
+        $page_alt_name = "$meta_title";
+        
+    }
+    
+?>

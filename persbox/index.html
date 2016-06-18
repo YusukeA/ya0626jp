@@ -1,38 +1,77 @@
 <?php include($_SERVER['DOCUMENT_ROOT']."/persbox/module/head.html"); ?>
 
-    <header>
+    <header id="top-head">
         <div class="global-menu">
-            <h1>Pers Box</h1>
+            <h1><a href="#key">Pers Box</a></h1>
             <nav>
                 <ul>
-                    <li><a href="#">WORK</a>
+                    <li><a href="#who">WHO WE ARE</a>
+                    <li><a href="#works">WORKS</a>
                     <li><a href="#">SERVICES</a>
-                    <li><a href="#">WHO WE ARE</a>
-                    <li><a href="#">COMPANY</a>
+                    <li><a href="#company">COMPANY</a>
                     <li><a href="#">CONTACT US</a>
                 </ul>
             </nav>
         </div>
     </header>
     
-    <sectioin class="key_visual">
+    <sectioin id="key" class="key_visual">
         <div class="key_inside">
             <div class="key_title">
-                <h1>Your satisfaction is guaranteed.</h1>
-                <p>We are creating high quality space design, 3D perspective design and hand drafting  design.</p>
+                <h1>Pers Box</h1>
+                <h2>Your satisfaction is guaranteed.</h2>
+                <p>私たちはハイクオリティーで、確かな技術をもったパースデザイン集団です。</p>
             </div>
-            <div class="#">
-                <div class="#">
-                    <p>
-                        <a href="#">See Our Works Test</a>
-                </div>
+            <div class="action-button">
+                <a href="#who">
+                    <p>WHO WE ARE</p>
+                </a>
             </div>
         </div>
     </sectioin>
     
-    <sectioin class="contents">
-        <h1></h1>
-        <p></p>
+    <sectioin id="who" class="contents-who">
+        <div class="who-inside">
+            <div class="who-text-area">
+                <h1><span class="under-line">WHO</span> WE ARE</h1>
+                <p>私たちは30年以上の実績と確かな技術で様々なデザインを創造してきました。<br>
+                最高のプレゼンテーションを実現するために、多種多様なパースデザインをこれからも提供し続けます。
+            </div>
+        </div>
     </sectioin>
+    
+    <sectioin id="works" class="contents-works">
+        <div class="works-inside">
+            <div class="works-text-area">
+                <h1>WORKS</h1>
+            </div>
+            <div class="woriks-list-area">
+                <ul>
+                    <li><a href="#">
+                        <figure>
+                            <img src="#">
+                        </figure>
+                    <li><a href="#">
+                        <figure>
+                            <img src="#">
+                        </figure>
+                    <li><a href="#">
+                        <figure>
+                            <img src="#">
+                        </figure>
+                </ul>
+            </div>
+        </div>
+    </sectioin>
+    
+    <sectioin id="company" class="contents-company">
+        <div class="company-inside">
+            <div class="company-text-area">
+                <h1>COMPANY</h1>
+            </div>
+        </div>
+    </sectioin>
+    
+
 
 <?php include($_SERVER['DOCUMENT_ROOT']."/persbox/module/footer.html"); ?>

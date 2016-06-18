@@ -1,6 +1,29 @@
+/** action button **/
+.action-button a {
+  background-color: #49c8fd;
+  display: block;
+  margin: 0 auto;
+  padding: 15px 0;
+  font-weight: bold;
+  width: 180px;
+  border-radius: 25px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px; }
+  .action-button a p {
+    color: #fff; }
+
+.action-button a:hover {
+  opacity: 0.8;
+  background-color: #2487b1;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out; }
+
 /** headeer **/
 header {
-  background-color: rgba(68, 45, 76, 0.62);
+  top: 0;
   position: fixed;
   width: 100%;
   z-index: 10000; }
@@ -11,7 +34,6 @@ header {
     width: 98%; }
     header .global-menu h1, header .global-menu nav {
       display: table-cell;
-      text-transform: lowercase;
       font-size: 1.15em;
       color: #fff;
       vertical-align: bottom; }
@@ -19,16 +41,39 @@ header {
         display: table;
         float: right; }
         header .global-menu h1 ul li, header .global-menu h1 ul li a, header .global-menu nav ul li, header .global-menu nav ul li a {
-          font-size: 1.0em;
+          font-size: 0.9em;
           color: #fff;
           display: table-cell;
-          padding-right: 10px; }
+          padding-right: 13px; }
         header .global-menu h1 ul li a:hover, header .global-menu nav ul li a:hover {
-          color: #2D122F; }
+          color: #2b4c71; }
+    header .global-menu h1 a {
+      color: #fff; }
+
+/* transition */
+#top-head {
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease; }
+
+/* Fixed */
+#top-head.fixed {
+  padding-top: 15px;
+  background: rgba(255, 255, 255, 0.7);
+  border-bottom: solid 1px #a3aaad; }
+  #top-head.fixed h1, #top-head.fixed a {
+    color: #2b4c71; }
+  #top-head.fixed a:hover {
+    opacity: 0.75; }
+
+#top-head.fixed:after {
+  width: 100%;
+  margin-top: 20px; }
 
 /** key_visual **/
 .key_visual {
-  background-image: url(/persbox/img/key_visual/home.jpg);
+  background-image: url(/persbox/img/key_visual/key-visual.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: block;
@@ -40,12 +85,87 @@ header {
     text-align: center;
     width: 100%; }
     .key_visual .key_inside .key_title {
-      padding-top: 22%; }
+      padding-top: 16%; }
       .key_visual .key_inside .key_title h1 {
         color: #fff;
-        font-size: 3.65em;
-        line-height: 1.65em; }
+        font-size: 8.65em;
+        line-height: 1.15em; }
+      .key_visual .key_inside .key_title h2 {
+        color: #fff;
+        font-size: 2.35em;
+        line-height: 1.75em; }
       .key_visual .key_inside .key_title p {
-        color: #fff; }
+        color: #fff;
+        line-height: 1.75em; }
+    .key_visual .key_inside .action-button {
+      margin-top: 60px; }
+
+/** who we are **/
+.contents-who {
+  background-image: url(/persbox/img/key_visual/about.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  padding: 30px 1%;
+  width: 98%; }
+  .contents-who .who-inside {
+    height: 70vh;
+    display: table;
+    width: 60%;
+    margin: 0 auto;
+    padding: 100px 0; }
+    .contents-who .who-inside .who-text-area {
+      display: table-cell; }
+      .contents-who .who-inside .who-text-area h1 {
+        font-size: 5.05em;
+        line-height: 1.00em;
+        padding-top: 15vh; }
+        .contents-who .who-inside .who-text-area h1 .under-line {
+          border-bottom: solid 6px;
+          font-size: 1.00em;
+          line-height: 2.00em;
+          padding-bottom: 20px; }
+      .contents-who .who-inside .who-text-area p {
+        color: #a3aaad;
+        padding-top: 25px;
+        line-height: 1.85em; }
+
+/** works **/
+.contents-works {
+  background: #303740;
+  display: block;
+  padding: 30px 1%;
+  width: 98%; }
+  .contents-works .works-inside {
+    height: 77vh;
+    display: table;
+    width: 60%;
+    margin: 0 auto;
+    padding: 100px 0; }
+    .contents-works .works-inside .works-text-area {
+      text-align: center; }
+      .contents-works .works-inside .works-text-area h1 {
+        font-size: 5.05em;
+        line-height: 1.00em;
+        color: #fff;
+        padding-top: 8vh; }
+
+/** company **/
+.contents-company {
+  display: block;
+  padding: 30px 1%;
+  width: 98%; }
+  .contents-company .company-inside {
+    height: 77vh;
+    display: table;
+    width: 60%;
+    margin: 0 auto;
+    padding: 100px 0; }
+    .contents-company .company-inside .company-text-area {
+      text-align: center; }
+      .contents-company .company-inside .company-text-area h1 {
+        font-size: 5.05em;
+        line-height: 1.00em;
+        padding-top: 8vh; }
 
 /*# sourceMappingURL=style.css.map */

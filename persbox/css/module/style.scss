@@ -1,4 +1,5 @@
 $color-white : #fff;
+<<<<<<< HEAD
 $color-light-gray: #a3aaad;
 $color-dark-purple: #2D122F;
 $color-link-blue: #49c8fd;
@@ -55,6 +56,18 @@ $color-persbox : #2d3c4c;
 header{
 
     top: 0;
+=======
+$color-light-purple: rgba(68, 45, 76, 0.62);
+$color-dark-purple: #2D122F;
+
+$visual-filter: rgba(30, 30, 30, 0.15);
+
+
+/** headeer **/
+header{
+    
+    background-color: $color-light-purple;
+>>>>>>> master
     position: fixed;
     width: 100%;
     z-index: 10000;
@@ -67,6 +80,10 @@ header{
         
         h1,nav{
             display: table-cell;
+<<<<<<< HEAD
+=======
+            text-transform: lowercase;
+>>>>>>> master
             font-size: 1.15em;
             color: $color-white;
             vertical-align: bottom;
@@ -76,6 +93,7 @@ header{
                 float: right;
                 
                 li,li a{
+<<<<<<< HEAD
                     font-size: 0.9em;
                     color: $color-white;
                     display: table-cell;
@@ -83,21 +101,34 @@ header{
                 }
                 li a:hover{
                     color: $color-persbox;
+=======
+                    font-size: 1.0em;
+                    color: $color-white;
+                    display: table-cell;
+                    padding-right:10px;
+                }
+                li a:hover{
+                    color: $color-dark-purple;
+>>>>>>> master
                 }
                 
             }
         }
+<<<<<<< HEAD
         h1{
             padding-left: 1%;
         }
         h1 a{
             color: $color-white;
         }
+=======
+>>>>>>> master
         
     }
     
 }
 
+<<<<<<< HEAD
 
 /* transition */
 #top-head{
@@ -131,6 +162,12 @@ header{
 .key_visual{
     
     background-image: url(/persbox/img/pers/img01.jpg);
+=======
+/** key_visual **/
+.key_visual{
+    
+    background-image: url(/persbox/img/key_visual/home.jpg);
+>>>>>>> master
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
@@ -144,6 +181,7 @@ header{
             width: 100%;
             
             .key_title{
+<<<<<<< HEAD
                 padding-top: 16%;
                 
                 h1{
@@ -156,10 +194,20 @@ header{
                     color: $color-white;
                     font-size: 2.35em;
                     line-height: 1.75em;
+=======
+                padding-top: 22%;
+                
+                h1{
+                    
+                    color: $color-white;
+                    font-size: 3.65em;
+                    line-height: 1.65em;
+>>>>>>> master
                 }
                 
                 p{
                     color: $color-white;
+<<<<<<< HEAD
                     line-height: 1.75em;
                 }
                 
@@ -497,4 +545,10 @@ header {
     }
 }
     
+=======
+                }
+                
+            }
+        }
+>>>>>>> master
 }

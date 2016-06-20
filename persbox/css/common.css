@@ -117,19 +117,11 @@ etc setting
 /* = Selected Text
 ----------------------------------------------- */
 ::selection {
-<<<<<<< HEAD
 	background:#49c8fd; /* Safari */
-=======
-	background:#5A375D; /* Safari */
->>>>>>> master
 	color: #fff;
 }
 
 ::-moz-selection {
-<<<<<<< HEAD
 	background:#49c8fd; /* Firefox */
-=======
-	background:#5A375D; /* Firefox */
->>>>>>> master
 	color: #fff;
 }

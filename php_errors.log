@@ -136,3 +136,7 @@
 [13-Jun-2016 10:45:24 UTC] PHP Parse error:  syntax error, unexpected ''>' (T_ENCAPSED_AND_WHITESPACE) in /home/ubuntu/workspace/persbox/module/head.html on line 8
 [13-Jun-2016 10:45:24 UTC] PHP Stack trace:
 [13-Jun-2016 10:45:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/persbox/index.html:0
+[20-Jun-2016 08:53:14 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/ubuntu/workspace/persbox/module/seo_setting.html on line 11
+[20-Jun-2016 08:53:14 UTC] PHP Stack trace:
+[20-Jun-2016 08:53:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/persbox/index.html:0
+[20-Jun-2016 08:53:14 UTC] PHP   2. include() /home/ubuntu/workspace/persbox/index.html:1

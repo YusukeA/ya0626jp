@@ -1,24 +1,25 @@
 $color-white : #fff;
 $color-light-gray: #a3aaad;
 $color-dark-purple: #2D122F;
-$color-link-blue: #49c8fd;
-$color-link-blue-dark: #2487b1;
+$color-link-blue: #3e5871;
+$color-link-blue-dark: #3e5871;
 $color-bg-blue: #303740;
 $visual-filter: rgba(30, 30, 30, 0.15);
 $color-persbox : #2d3c4c;
 
+@import "page-up";
 
 /** action button **/
 @mixin linkbox{
-    background-color: $color-link-blue;
+    background-color: $color-link-blue-dark;
 	display: block;  
     margin: 0 auto;
     padding: 15px 0;
     font-weight: bold;
-    width: 180px;
+    width: 300px;
     border-radius: 25px;
 	-moz-border-radius: 25px;
-	-webkit-border-radius: 25px;  
+	-webkit-border-radius: 25px;
 }
 
 @mixin animation-btn{
@@ -38,7 +39,7 @@ $color-persbox : #2d3c4c;
 }
 
 .action-button a:hover{
-    opacity: 0.8;
+    opacity: 0.6;
     background-color: $color-link-blue-dark;
     @include animation-btn;
 }
@@ -53,7 +54,6 @@ $color-persbox : #2d3c4c;
 
 /** headeer **/
 header{
-
     top: 0;
     position: fixed;
     width: 100%;
@@ -130,7 +130,7 @@ header{
 /** key_visual **/
 .key_visual{
     
-    background-image: url(/persbox/img/pers/img01.jpg);
+   // background-image: url(/persbox/img/pers/pers04.png);
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
@@ -150,6 +150,7 @@ header{
                     color: $color-white;
                     font-size: 8.65em;
                     line-height: 1.15em;
+                    padding-bottom: 20px;
                 }
                 
                 h2{
@@ -227,7 +228,7 @@ header{
             text-align: center;
         
             h1{
-                font-size: 5.05em;
+                font-size: 4.75em;
                 color: #fff;
                 padding-top: 8vh;
                 border-bottom: solid 6px;
@@ -284,7 +285,7 @@ header{
                 text-align: center;
                 
                 h1{
-                    font-size: 5.05em;
+                    font-size: 4.75em;
                     line-height: 1.00em;
                     margin: 0 auto;
                     width: 400px;

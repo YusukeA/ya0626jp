@@ -1,5 +1,25 @@
 // UTF-8
-
+$(function() {
+	var topBtn = $('.page_top_btn');	
+	topBtn.hide();
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 100) {
+			topBtn.fadeIn();
+		} else {
+			topBtn.fadeOut();
+		}
+	});
+	
+	//スクロールしてトップ
+    topBtn.click(function () {
+		$('body,html').animate({
+			scrollTop: 0
+		}, 200);
+		return false;
+    });
+    
+    
+});
 (function(){
    var easing = 0.25;
    var interval = 20;

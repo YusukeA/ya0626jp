@@ -1,11 +1,30 @@
+/** page top **/
+.page_top {
+  width: 100%;
+  bottom: 105px;
+  position: fixed;
+  z-index: 100000; }
+  .page_top .contents_inside {
+    width: 95%; }
+    .page_top .contents_inside figure {
+      width: 64px;
+      height: 64px;
+      background-image: url(/persbox/img/common/up-arrow.png);
+      background-repeat: no-repeat;
+      float: right; }
+      .page_top .contents_inside figure a {
+        width: 100%;
+        height: 64px;
+        display: block; }
+
 /** action button **/
 .action-button a {
-  background-color: #49c8fd;
+  background-color: #3e5871;
   display: block;
   margin: 0 auto;
   padding: 15px 0;
   font-weight: bold;
-  width: 180px;
+  width: 300px;
   border-radius: 25px;
   -moz-border-radius: 25px;
   -webkit-border-radius: 25px;
@@ -14,8 +33,8 @@
     color: #fff; }
 
 .action-button a:hover {
-  opacity: 0.8;
-  background-color: #2487b1;
+  opacity: 0.6;
+  background-color: #3e5871;
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
   -ms-transition: all .3s ease-in-out;
@@ -82,7 +101,6 @@ header {
 
 /** key_visual **/
 .key_visual {
-  background-image: url(/persbox/img/pers/img01.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: block;
@@ -98,7 +116,8 @@ header {
       .key_visual .key_inside .key_title h1 {
         color: #fff;
         font-size: 8.65em;
-        line-height: 1.15em; }
+        line-height: 1.15em;
+        padding-bottom: 20px; }
       .key_visual .key_inside .key_title h2 {
         color: #fff;
         font-size: 2.35em;
@@ -148,7 +167,7 @@ header {
     .contents-works .works-inside .works-text-area {
       text-align: center; }
       .contents-works .works-inside .works-text-area h1 {
-        font-size: 5.05em;
+        font-size: 4.75em;
         color: #fff;
         padding-top: 8vh;
         border-bottom: solid 6px;
@@ -185,7 +204,7 @@ header {
     .contents-company .company-inside .company-text-area {
       text-align: center; }
       .contents-company .company-inside .company-text-area h1 {
-        font-size: 5.05em;
+        font-size: 4.75em;
         line-height: 1.00em;
         margin: 0 auto;
         width: 400px;

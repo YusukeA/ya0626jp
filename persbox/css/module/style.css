@@ -124,6 +124,8 @@ header {
       .key_visual .key_inside .key_title p {
         color: #fff;
         line-height: 1.75em; }
+    .key_visual .key_inside .action-button {
+      margin-top: 60px; }
   .key_visual .company-detail-area {
     margin: 40px auto;
     width: 60%; }

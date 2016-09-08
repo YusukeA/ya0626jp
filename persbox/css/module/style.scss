@@ -165,6 +165,10 @@ header{
 
                 }
             }
+            
+            .action-button{
+                margin-top: 60px;    
+            }
         }
         
         .company-detail-area{
@@ -177,8 +181,35 @@ header{
                 
                 li{
                     padding-bottom: 20px;    
+<<<<<<< HEAD
                 }
                 
+                dl{
+                    display: table;
+                    width: 100%;
+                    
+                    dt,dd{
+                        display: table-cell;
+                    }
+                    dt{
+                        width: 40%;
+                    }
+=======
+>>>>>>> stage
+                }
+            }
+            
+        }
+        
+        .company-map-area{
+            
+            ul{
+                display: table;
+                margin: 60px 0;
+                width: 100%;
+                
+<<<<<<< HEAD
+=======
                 dl{
                     display: table;
                     width: 100%;
@@ -201,6 +232,7 @@ header{
                 margin: 60px 0;
                 width: 100%;
                 
+>>>>>>> stage
                 li{
                     display: table-cell;;
                     text-align: center;

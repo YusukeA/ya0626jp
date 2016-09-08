@@ -46,10 +46,10 @@ $color-persbox : #2d3c4c;
 
 
 .under-line {
-    border-bottom: solid 6px;
+    border-bottom: solid 4px;
     font-size: 1.00em;
     line-height: 2.00em;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 /** headeer **/
@@ -65,6 +65,18 @@ header{
         min-height: 36px;
         padding: 1%;
         width: 98%;
+                    
+        h1{
+            a{
+                figure{
+                    width: 100px;
+                    height: 40px;
+                    background-image: url(/persbox/img/common/logo-w.png);
+                    background-repeat: no-repeat;
+                    display: block;
+                }
+            }
+        }
         
         h1,nav{
             display: table-cell;
@@ -77,7 +89,7 @@ header{
                 float: right;
                 
                 li,li a{
-                    font-size: 0.9em;
+                    font-size: 1.0em;
                     color: $color-white;
                     display: table-cell;
                     padding-right:13px;
@@ -113,6 +125,18 @@ header{
     padding-top: 15px;
     background: rgba(255,255,255,.7);
     border-bottom: solid 1px $color-light-gray;
+                    
+    h1{
+        a{
+            figure{
+                width: 100px;
+                height: 40px;
+                background-image: url(/persbox/img/common/logo-c.png);
+                background-repeat: no-repeat;
+                display: block;
+            }
+        }
+    }
     
     h1, a{
         color: $color-persbox;
@@ -144,18 +168,11 @@ header{
             width: 100%;
             
             .key_title{
-                padding-top: 16%;
+                padding-top: 20%;
                 
                 h1{
                     color: $color-white;
-                    font-size: 8.65em;
-                    line-height: 1.15em;
-                    padding-bottom: 20px;
-                }
-                
-                h2{
-                    color: $color-white;
-                    font-size: 2.35em;
+                    font-size: 2.85em;
                     line-height: 1.75em;
                 }
                 
@@ -181,21 +198,7 @@ header{
                 
                 li{
                     padding-bottom: 20px;    
-<<<<<<< HEAD
-                }
-                
-                dl{
-                    display: table;
-                    width: 100%;
-                    
-                    dt,dd{
-                        display: table-cell;
-                    }
-                    dt{
-                        width: 40%;
-                    }
-=======
->>>>>>> stage
+
                 }
             }
             
@@ -208,8 +211,6 @@ header{
                 margin: 60px 0;
                 width: 100%;
                 
-<<<<<<< HEAD
-=======
                 dl{
                     display: table;
                     width: 100%;
@@ -232,7 +233,6 @@ header{
                 margin: 60px 0;
                 width: 100%;
                 
->>>>>>> stage
                 li{
                     display: table-cell;;
                     text-align: center;
@@ -324,10 +324,10 @@ header{
             text-align: center;
         
             h1{
-                font-size: 4.75em;
+                font-size: 3.75em;
                 color: #fff;
                 padding-top: 8vh;
-                border-bottom: solid 6px;
+                border-bottom: solid 2px;
                 line-height: 1.0em;
                 padding-bottom: 20px;
                 width: 300px;
@@ -381,7 +381,7 @@ header{
                 text-align: center;
                 
                 h1{
-                    font-size: 4.75em;
+                    font-size: 3.75em;
                     line-height: 1.00em;
                     margin: 0 auto;
                     width: 400px;

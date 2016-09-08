@@ -42,10 +42,10 @@
   transition: all .3s ease-in-out; }
 
 .under-line {
-  border-bottom: solid 6px;
+  border-bottom: solid 4px;
   font-size: 1.00em;
   line-height: 2.00em;
-  padding-bottom: 20px; }
+  padding-bottom: 10px; }
 
 /** headeer **/
 header {
@@ -58,6 +58,12 @@ header {
     min-height: 36px;
     padding: 1%;
     width: 98%; }
+    header .global-menu h1 a figure {
+      width: 100px;
+      height: 40px;
+      background-image: url(/persbox/img/common/logo-w.png);
+      background-repeat: no-repeat;
+      display: block; }
     header .global-menu h1, header .global-menu nav {
       display: table-cell;
       font-size: 1.15em;
@@ -67,7 +73,7 @@ header {
         display: table;
         float: right; }
         header .global-menu h1 ul li, header .global-menu h1 ul li a, header .global-menu nav ul li, header .global-menu nav ul li a {
-          font-size: 0.9em;
+          font-size: 1.0em;
           color: #fff;
           display: table-cell;
           padding-right: 13px; }
@@ -90,6 +96,12 @@ header {
   padding-top: 15px;
   background: rgba(255, 255, 255, 0.7);
   border-bottom: solid 1px #454a56; }
+  #top-head.fixed h1 a figure {
+    width: 100px;
+    height: 40px;
+    background-image: url(/persbox/img/common/logo-c.png);
+    background-repeat: no-repeat;
+    display: block; }
   #top-head.fixed h1, #top-head.fixed a {
     color: #2d3c4c; }
   #top-head.fixed a:hover {
@@ -111,15 +123,10 @@ header {
     text-align: center;
     width: 100%; }
     .key_visual .key_inside .key_title {
-      padding-top: 16%; }
+      padding-top: 20%; }
       .key_visual .key_inside .key_title h1 {
         color: #fff;
-        font-size: 8.65em;
-        line-height: 1.15em;
-        padding-bottom: 20px; }
-      .key_visual .key_inside .key_title h2 {
-        color: #fff;
-        font-size: 2.35em;
+        font-size: 2.85em;
         line-height: 1.75em; }
       .key_visual .key_inside .key_title p {
         color: #fff;
@@ -134,13 +141,17 @@ header {
       width: 100%; }
       .key_visual .company-detail-area ul li {
         padding-bottom: 20px; }
-      .key_visual .company-detail-area ul dl {
-        display: table;
-        width: 100%; }
-        .key_visual .company-detail-area ul dl dt, .key_visual .company-detail-area ul dl dd {
-          display: table-cell; }
-        .key_visual .company-detail-area ul dl dt {
-          width: 40%; }
+  .key_visual .company-map-area ul {
+    display: table;
+    margin: 60px 0;
+    width: 100%; }
+    .key_visual .company-map-area ul dl {
+      display: table;
+      width: 100%; }
+      .key_visual .company-map-area ul dl dt, .key_visual .company-map-area ul dl dd {
+        display: table-cell; }
+      .key_visual .company-map-area ul dl dt {
+        width: 40%; }
   .key_visual .company-map-area ul {
     display: table;
     margin: 60px 0;
@@ -202,10 +213,10 @@ header {
     .contents-works .works-inside .works-text-area {
       text-align: center; }
       .contents-works .works-inside .works-text-area h1 {
-        font-size: 4.75em;
+        font-size: 3.75em;
         color: #fff;
         padding-top: 8vh;
-        border-bottom: solid 6px;
+        border-bottom: solid 2px;
         line-height: 1.0em;
         padding-bottom: 20px;
         width: 300px;
@@ -239,7 +250,7 @@ header {
     .contents-company .company-inside .company-text-area {
       text-align: center; }
       .contents-company .company-inside .company-text-area h1 {
-        font-size: 4.75em;
+        font-size: 3.75em;
         line-height: 1.00em;
         margin: 0 auto;
         width: 400px;

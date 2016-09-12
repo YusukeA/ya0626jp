@@ -152,23 +152,27 @@ header{
 }
 
 
+
+
 /** key_visual **/
 .key_visual{
-    
-   // background-image: url(/persbox/img/pers/pers04.png);
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
     height: 100vh;
+    animation: bg-color 60s infinite;
+    -webkit-animation: bg-color 60s infinite;
+    
     
         .key_inside{
-            background-color: rgba(41, 41, 41, 0.52);
+            background-color: rgba(40, 40, 40, 0.20);
             height: 100%;
             text-align: center;
             width: 100%;
             
+            
             .key_title{
-                padding-top: 20%;
+                padding-top: 35vh;
                 
                 h1{
                     color: $color-white;
@@ -268,6 +272,33 @@ header{
         }
         
 }
+@-webkit-keyframes bg-color {
+    0% { background-image: url(/persbox/img/pers/pers01.png);}
+    10% { background-image: url(/persbox/img/pers/pers02.png); }
+    20% { background-image: url(/persbox/img/pers/pers03.png); }
+    30% { background-image: url(/persbox/img/pers/pers04.png); }
+    40% { background-image: url(/persbox/img/pers/pers05.png); }
+    50% { background-image: url(/persbox/img/pers/pers07.png); }
+    60% { background-image: url(/persbox/img/pers/pers08.png); }
+    70% { background-image: url(/persbox/img/pers/pers09.png); }
+    80% { background-image: url(/persbox/img/pers/pers10.png); }
+    90% { background-image: url(/persbox/img/pers/pers11.png); }
+    100% { background-image: url(/persbox/img/pers/pers12.png); }
+}
+
+@keyframes bg-color {
+    0% { background-image: url(/persbox/img/pers/pers01.png);}
+    10% { background-image: url(/persbox/img/pers/pers02.png); }
+    20% { background-image: url(/persbox/img/pers/pers03.png); }
+    30% { background-image: url(/persbox/img/pers/pers04.png); }
+    40% { background-image: url(/persbox/img/pers/pers05.png); }
+    50% { background-image: url(/persbox/img/pers/pers07.png); }
+    60% { background-image: url(/persbox/img/pers/pers08.png); }
+    70% { background-image: url(/persbox/img/pers/pers09.png); }
+    80% { background-image: url(/persbox/img/pers/pers10.png); }
+    90% { background-image: url(/persbox/img/pers/pers11.png); }
+    100% { background-image: url(/persbox/img/pers/pers12.png); }
+}  
 
 /** who we are **/
 .contents-who {
@@ -485,7 +516,9 @@ div#lightbox-panel12,
 div#lightbox-panel13,
 div#lightbox-panel14,
 div#lightbox-panel15,
-div#lightbox-panel16{ 
+div#lightbox-panel16,
+div#lightbox-panel17,
+div#lightbox-panel18{ 
     position: fixed;
     top: 10vh;
     left: 20%;
@@ -539,10 +572,12 @@ header {
             text-align: center;
             margin: 0 auto;
             vertical-align: middle;
-            padding: 4%;
+            padding-left: 4%;
+            padding-right: 4%;
+            padding-top: 20vh !important;
         
         h1{
-            font-size: 7.00em !important;
+            font-size: 3.00em !important;
             padding-top: 15%;
         }
         h2{

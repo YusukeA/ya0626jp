@@ -160,12 +160,12 @@ header{
     background-repeat: no-repeat;
     display: block;
     height: 100vh;
-    animation: bg-color 60s infinite;
-    -webkit-animation: bg-color 60s infinite;
+    animation: bg-color 80s infinite;
+    -webkit-animation: bg-color 80s infinite;
     
     
         .key_inside{
-            background-color: rgba(40, 40, 40, 0.20);
+            background-color: rgba(40, 40, 40, 0.35);
             height: 100%;
             text-align: center;
             width: 100%;
@@ -176,7 +176,7 @@ header{
                 
                 h1{
                     color: $color-white;
-                    font-size: 2.85em;
+                    font-size: 3.65em;
                     line-height: 1.75em;
                 }
                 

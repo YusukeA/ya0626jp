@@ -117,10 +117,10 @@ header {
   background-repeat: no-repeat;
   display: block;
   height: 100vh;
-  animation: bg-color 60s infinite;
-  -webkit-animation: bg-color 60s infinite; }
+  animation: bg-color 80s infinite;
+  -webkit-animation: bg-color 80s infinite; }
   .key_visual .key_inside {
-    background-color: rgba(40, 40, 40, 0.2);
+    background-color: rgba(40, 40, 40, 0.35);
     height: 100%;
     text-align: center;
     width: 100%; }
@@ -128,7 +128,7 @@ header {
       padding-top: 35vh; }
       .key_visual .key_inside .key_title h1 {
         color: #fff;
-        font-size: 2.85em;
+        font-size: 3.65em;
         line-height: 1.75em; }
       .key_visual .key_inside .key_title p {
         color: #fff;

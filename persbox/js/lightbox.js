@@ -65,6 +65,14 @@
             $("#BlackWindow, #lightbox-panel16").fadeIn(300);
          })
          
+        $("figure#img17").click(function(){
+            $("#BlackWindow, #lightbox-panel17").fadeIn(300);
+         })
+         
+        $("figure#img18").click(function(){
+            $("#BlackWindow, #lightbox-panel18").fadeIn(300);
+         })
+         
         //背景の黒地をクリックしたらLightBoxを閉じる
           $("#BlackWindow").click(function(){
             $("#BlackWindow, #lightbox-panel01").fadeOut(300);
@@ -83,5 +91,7 @@
             $("#BlackWindow, #lightbox-panel14").fadeOut(300);
             $("#BlackWindow, #lightbox-panel15").fadeOut(300);
             $("#BlackWindow, #lightbox-panel16").fadeOut(300);
+            $("#BlackWindow, #lightbox-panel17").fadeOut(300);
+            $("#BlackWindow, #lightbox-panel18").fadeOut(300);
          })
     })

@@ -147,17 +147,6 @@ header {
     display: table;
     margin: 60px 0;
     width: 100%; }
-    .key_visual .company-map-area ul dl {
-      display: table;
-      width: 100%; }
-      .key_visual .company-map-area ul dl dt, .key_visual .company-map-area ul dl dd {
-        display: table-cell; }
-      .key_visual .company-map-area ul dl dt {
-        width: 40%; }
-  .key_visual .company-map-area ul {
-    display: table;
-    margin: 60px 0;
-    width: 100%; }
     .key_visual .company-map-area ul li {
       display: table-cell;
       text-align: center; }

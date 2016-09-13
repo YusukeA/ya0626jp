@@ -140,3 +140,39 @@
 [20-Jun-2016 08:53:14 UTC] PHP Stack trace:
 [20-Jun-2016 08:53:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/persbox/index.html:0
 [20-Jun-2016 08:53:14 UTC] PHP   2. include() /home/ubuntu/workspace/persbox/index.html:1
+[13-Sep-2016 06:01:01 UTC] PHP Warning:  include(/home/ubuntu/workspace/module/head.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/persbox2/index.html on line 1
+[13-Sep-2016 06:01:01 UTC] PHP Stack trace:
+[13-Sep-2016 06:01:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/persbox2/index.html:0
+[13-Sep-2016 06:01:01 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/module/head.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/persbox2/index.html on line 1
+[13-Sep-2016 06:01:01 UTC] PHP Stack trace:
+[13-Sep-2016 06:01:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/persbox2/index.html:0
+[13-Sep-2016 06:01:01 UTC] PHP Warning:  include(/home/ubuntu/workspace/module/pers-list.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/persbox2/index.html on line 2
+[13-Sep-2016 06:01:01 UTC] PHP Stack trace:
+[13-Sep-2016 06:01:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/persbox2/index.html:0
+[13-Sep-2016 06:01:01 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/module/pers-list.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/persbox2/index.html on line 2
+[13-Sep-2016 06:01:01 UTC] PHP Stack trace:
+[13-Sep-2016 06:01:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/persbox2/index.html:0
+[13-Sep-2016 06:01:01 UTC] PHP Warning:  include(/home/ubuntu/workspace/module/footer.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/persbox2/index.html on line 266
+[13-Sep-2016 06:01:01 UTC] PHP Stack trace:
+[13-Sep-2016 06:01:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/persbox2/index.html:0
+[13-Sep-2016 06:01:01 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/module/footer.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/persbox2/index.html on line 266
+[13-Sep-2016 06:01:01 UTC] PHP Stack trace:
+[13-Sep-2016 06:01:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/persbox2/index.html:0
+[13-Sep-2016 06:01:05 UTC] PHP Warning:  include(/home/ubuntu/workspace/module/head.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/persbox2/index.html on line 1
+[13-Sep-2016 06:01:05 UTC] PHP Stack trace:
+[13-Sep-2016 06:01:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/persbox2/index.html:0
+[13-Sep-2016 06:01:05 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/module/head.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/persbox2/index.html on line 1
+[13-Sep-2016 06:01:05 UTC] PHP Stack trace:
+[13-Sep-2016 06:01:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/persbox2/index.html:0
+[13-Sep-2016 06:01:05 UTC] PHP Warning:  include(/home/ubuntu/workspace/module/pers-list.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/persbox2/index.html on line 2
+[13-Sep-2016 06:01:05 UTC] PHP Stack trace:
+[13-Sep-2016 06:01:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/persbox2/index.html:0
+[13-Sep-2016 06:01:05 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/module/pers-list.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/persbox2/index.html on line 2
+[13-Sep-2016 06:01:05 UTC] PHP Stack trace:
+[13-Sep-2016 06:01:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/persbox2/index.html:0
+[13-Sep-2016 06:01:05 UTC] PHP Warning:  include(/home/ubuntu/workspace/module/footer.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/persbox2/index.html on line 266
+[13-Sep-2016 06:01:05 UTC] PHP Stack trace:
+[13-Sep-2016 06:01:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/persbox2/index.html:0
+[13-Sep-2016 06:01:05 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/module/footer.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/persbox2/index.html on line 266
+[13-Sep-2016 06:01:05 UTC] PHP Stack trace:
+[13-Sep-2016 06:01:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/persbox2/index.html:0

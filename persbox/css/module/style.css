@@ -59,8 +59,8 @@ header {
     padding: 1%;
     width: 98%; }
     header .global-menu h1 a figure {
-      width: 100px;
-      height: 40px;
+      width: 160px;
+      height: 50px;
       background-image: url(/persbox/img/common/logo-w.png);
       background-repeat: no-repeat;
       display: block; }
@@ -397,6 +397,9 @@ div#BlackWindow {
 @media screen and (max-width: 768px) {
   header h1 {
     text-align: center; }
+    header h1 figure, header h1 image {
+      width: 100px;
+      height: 40px; }
   header nav, header ul {
     display: none !important; }
 
